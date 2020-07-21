@@ -6,7 +6,7 @@ require 'pry'
 ##    -Sell all their pets
 
 class Owner
-  
+
   attr_reader :name, :species
   @@all = []
 
@@ -67,5 +67,5 @@ class Owner
   def list_pets 
     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end 
-
+  
 end
